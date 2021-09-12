@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/heart.css">
+    <title>CPR Guided app</title>
+</head>
+
+<body>
+    <header>
+        <h1>CPR guided for doctors</h1>
+    </header>
+    <main>
+        <div id="countdown"></div>
+        <div id="heart"></div>
+        <div> 
+            <button class="start" id="start">START</button>
+        </div>
+        <div>
+            <button class="stop" id="stop" onClick="if (confirm('Are you sure?')){window.location.reload();} ">STOP & RESTART</button>
+        </div>
+        
+
+        <p id="todo"></p>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src='https://jyunming-chen.github.io/WebAudio/js/shared.js'></script>
+    <script src="/js/metronomo.js"></script>
+    <script src="js/cd.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+header {
+    background-color: #ab3039;
+    color: whitesmoke
+}
+
+main {
+    background-color: #ab3039;
+    top: 50%;
+    left: 50%;
+    color: whitesmoke;
+}
+
+#todo {
+    color: black;
+}
+
+button {
+    padding: 10px;
+}
